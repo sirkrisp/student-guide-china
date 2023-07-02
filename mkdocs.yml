@@ -1,0 +1,39 @@
+site_name: Student Guide for China
+theme:
+  name: material
+  palette:
+    primary: green
+  features:
+    - navigation.instant
+    # - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tracking
+    - toc.integrate
+nav:
+  - Welcome: index.md
+  - Essential Guides:
+      - essential-guides/before-arrival.md
+      - essential-guides/after-arrival.md
+      - essential-guides/vpn.md
+      - essential-guides/mobile-plan.md
+      - essential-guides/apps.md
+      - essential-guides/bank-account.md
+      - essential-guides/money-transfer.md
+      - essential-guides/insurance.md
+  - Travel Guides:
+      - travel-guides/general-tips.md
+      - travel-guides/zhangjiajie.md
+      - travel-guides/guilin.md
+  - SJTU Guides:
+      - sjtu-guides/overview.md
+      - sjtu-guides/before-application.md
+      - sjtu-guides/dormitories.md
+  - Extra Guides:
+      - extra-guides/scooter.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
